@@ -4,6 +4,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<nav class="nav bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand">Phonair<br>Phone + Repair</a>
+        <a class="navbar-brand">Prendre un Rendez-vous</a>
+        <a class="navbar-brand">Offres</a>
+        <a class="navbar-brand">Temps d'Ouverture</a>
+        <a class="navbar-brand">Nos Experts</a>
+        <a class="navbar-brand">Entreprise</a>
+    </div> <!-- container-fluid.// -->
+</nav>
+
+<!--
 <div class="topnav">
     <a>Phonair<br>Phone + Repair</a>
     <a>Prendre un Rendez-vous</a>
@@ -12,6 +24,7 @@
     <a>Nos Experts</a>
     <a>Entreprise</a>
 </div>
+-->
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -34,11 +47,12 @@
         <li style="display:inline">Vente de cellulaires</li>
     </ul>
 
-    <h6 syle="bold">PRENDRE UN RENDEZ VOUS ICI</h6>
+    <div id="prendre un rendez-vous">
+        <h4>Sélectrionnez une date pour un </h4>
+    </div>
 
     <div id="offres">
         <h3>Les Offres par Phonair</h3>
-
         <h6 style="display:inline">Réparation de cellulaires</h6>
         <div class="container">
             <div class="row">
@@ -133,8 +147,9 @@
         <ul style="display:inline">
             <h2>Location</h2>
             <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=150%20Slater%20St.&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </div>
         </ul>
@@ -142,23 +157,31 @@
             <h2>Contactez-Nous:</h2>
             <h5>Téléphone: (613)-123-4567</h5>
             <h5>Courriel Électronique: phonair@phonair.com</h5>
-            
+
         </ul>
     </div>
     <div id="nos experts">
         <h2>Nos experts</h2>
         <div id="specialist1">
             <img src="images/Specialist1.jpg" class="img-fluid" alt="Responsive image">
-            <h4>Charles Dupuis</h4>
+            <h4>Ollie Dupuis</h4>
         </div>
         <div id="specialist2">
             <img src="images/Specialist2.jpg" class="img-fluid" alt="Responsive image">
-            <h4>Marguerite Monet</h4>
+            <h4>Christine Monet</h4>
         </div>
         <div id="specialist3">
             <img src="images/Specialist3.jpg" class="img-fluid" alt="Responsive image">
-            <h4>Charles Dupuis</h4>
+            <h4>Miguel Dupuis</h4>
         </div>
+    </div>
+    <div id="entreprise">
+        <h2>Qui sommes-nous?</h2>
+        <p>Nous sommes Phonair, un compagnie qui a comme but de donner des services professionnel pour les cellulaies.
+            Nous avons comme service d'aider le monde avec des troubles de cellulaires. Notre compagnie est basé à
+            Ottawa dans une location facile d'accèes pour tout le monde.
+            On veut pouvoir donner des options pour notre clientèle pour
+        </p>
     </div>
 
     <script src="js\bootstrap.js"></script>
