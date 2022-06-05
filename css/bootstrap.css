@@ -571,6 +571,12 @@ progress {
   height: auto;
 }
 
+.img-fluid2 {
+
+  max-height: 300px;
+  width: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7425,7 +7431,7 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #eeffff !important;
 }
 
 .bg-success {

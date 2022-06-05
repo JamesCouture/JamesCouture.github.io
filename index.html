@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+<!-- Background image -->
 <nav class="nav bg-primary">
     <div class="m-4">
         <a href="#intro" style="text-decoration:none;">
@@ -23,6 +23,8 @@
     </div>
 </nav>
 
+
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
@@ -38,23 +40,43 @@
     </title>
 </head>
 
-<body>
+<body class="bg-image"
+style="
+  background-image: url('https://i.postimg.cc/nVQjdp07/background.jpg');
+  height: 100vh;">
+    <!-- Background image -->
     <div id="intro">
         <div class="bg-secondary m-4">
-            <div class="m-3 p-2">
-                <h2>Bienvenu</h2>
+            <div class="m-3 p-4">
+                <h2 style="display:flex; justify-content:center;">Bienvenu</h2>
                 <h3>Qui sommes-nous?</h3>
-                <p>Ici, Phonair, on veux aider au monde recevoir des services professionnel au gens qui ont des besoins
+                <p>Ici, Phonair, on veux aider au monde recevoir des services professionnel au gens qui ont des
+                    besoins
                     pour
                     leurs
                     téléphones.</p>
                 <br>
                 <h2>Services Offerts</h2>
-                <ul>
-                    <li style="display:inline">Réparation de cellulaires</li>
-                    <li style="display:inline">Location de cellulaires</li>
-                    <li style="display:inline">Vente de cellulaires</li>
-                </ul>
+                <div class="row">
+                    <div class="col-4">
+                        <h4 class="justify-content-center" style="display:flex;">Réparation de cellulaires</h4>
+                        <div class="p-3 justify-content-center" style="display:flex;">
+                            <img class="img-fluid2" src="images/offre1.jpg" alt="Image de mobile.">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="justify-content-center" style="display:flex;">Location de cellulaires</h4>
+                        <div class="p-3 justify-content-center" style="display:flex;">
+                            <img class="img-fluid2" src="images/offre2.jpg" alt="Image de mobile.">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="justify-content-center" style="display:flex;">Vente de cellulaires</h4>
+                        <div class="p-3 justify-content-center" style="display:flex;">
+                            <img class="img-fluid2" src="images/offre3.jpg" alt="Image de mobile.">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -140,11 +162,13 @@
                             </select>
                         </div>
                         <h4>Sélectionnez le service que vous voulez:</h4>
-                        <select class="form-select">
-                            <option>Réparation de cellulaires</option>
-                            <option>Location de cellulaires</option>
-                            <option>Vente de cellulaires</option>
-                        </select>
+                        <div class="mt-4 mb-3 pe-5">
+                            <select class="form-select">
+                                <option>Réparation de cellulaires</option>
+                                <option>Location de cellulaires</option>
+                                <option>Vente de cellulaires</option>
+                            </select>
+                        </div>
                         <div class="mt-5 ms-5">
                             <div class="m-4">
                                 <!-- Button HTML (to Trigger Modal) -->
@@ -161,7 +185,10 @@
                                             </div>
                                             <div class="modal-body">
                                                 <p>Voulez vous confirmer votre rendez-vous?</p>
-                                                <p class="text-secondary"><small>Si vous confirmer, vous allez recevoir un courriel au courriel électronique que vous avez indiqué</small></p>
+                                                <p class="text-secondary"><small>Si vous confirmer, vous allez
+                                                        recevoir
+                                                        un courriel au courriel électronique que vous avez
+                                                        indiqué</small></p>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
@@ -184,10 +211,10 @@
         <div class="bg-secondary m-4">
             <div class="m-3 p-2">
                 <h3>Les Offres par Phonair</h3>
-                <h6 style="display:inline">Réparation de cellulaires</h6>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
+                            <h6>Réparation de cellulaires</h6>
                             <table class="table">
                                 <tr class="active bg-primary">
                                     <th>Service</th>
@@ -213,10 +240,10 @@
                         </div>
                     </div>
                 </div>
-                <h6 style="display:inline">Location de cellulaires</h6>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
+                            <h6>Location de cellulaires</h6>
                             <table class="table">
                                 <tr class="active">
                                     <th>Service</th>
@@ -237,10 +264,10 @@
                         </div>
                     </div>
                 </div>
-                <h6 style="display:inline">Vente de cellulaires</h6>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
+                            <h6>Vente de cellulaires</h6>
                             <table class="table">
                                 <tr class="active">
                                     <th>Service</th>
@@ -269,52 +296,80 @@
     <div id="temps d'ouverture">
         <div class="bg-secondary m-4">
             <div class="m-3 p-2">
-                <h2>Horraire</h2>
-                <ul style="display:inline">
-                    <ul>
-                        <h6>Lundi: 8:30 - 19:00</h6>
-                        <h6>Mardi: 8:30 - 19:00</h6>
-                        <h6>Mercredi: 8:30 - 19:00</h6>
-                        <h6>Jeudi: 8:30 - 19:00</h6>
-                        <h6>Vendredi: 8:30 - 19:00</h6>
-                        <h6>Samedi: 8:30 - 19:00</h6>
-                        <h6>Dimanche: 8:30 - 19:00</h6>
-                    </ul>
-                </ul>
-                <ul style="display:inline">
-                    <h2>Location</h2>
-                    <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=150%20Slater%20St.&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div class="row">
+                    <div class="col">
+                        <div mt-5>
+                            <h2>Horraire</h2>
+                            <ul style="display:inline">
+                                <ul>
+                                    <h5>Lundi: 8:30 - 19:00</h6>
+                                        <h5>Mardi: 8:30 - 19:00</h6>
+                                            <h5>Mercredi: 8:30 - 19:00</h6>
+                                                <h5>Jeudi: 8:30 - 19:00</h6>
+                                                    <h5>Vendredi: 8:30 - 19:00</h6>
+                                                        <h5>Samedi: 8:30 - 19:00</h6>
+                                                            <h5>Dimanche: 8:30 - 19:00</h6>
+                                </ul>
+                            </ul>
+                            <ul style="display:inline">
+                                <h2>Contactez-Nous:</h2>
+                                <h4>Téléphone: (613)-123-4567</h5>
+                                    <h4>Courriel Électronique: phonair@phonair.com</h5>
+                            </ul>
                         </div>
                     </div>
-                </ul>
-                <ul style="display:inline">
-                    <h2>Contactez-Nous:</h2>
-                    <h5>Téléphone: (613)-123-4567</h5>
-                    <h5>Courriel Électronique: phonair@phonair.com</h5>
-
-                </ul>
+                    <div class="col">
+                        <div mt-5>
+                            <h2>Location</h2>
+                            <ul style="display:inline">
+                                <div class="mapouter mb-3">
+                                    <div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas"
+                                            src="https://maps.google.com/maps?q=150%20Slater%20St.&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div id="nos experts">
         <div class="bg-secondary m-4">
-            <div class="m-3 p-2">
+            <div class="m-3 p-4">
                 <h2>Nos experts</h2>
+
                 <div id="specialist1">
-                    <img src="images/Specialist1.jpg" class="img-fluid" alt="Image d'Ollie Dupuis.">
-                    <h4>Ollie Dupuis</h4>
+                    <div class="row p-3">
+                        <div class="col-1 p-3">
+                            <img src="images/Specialist1.jpg" class="img-fluid" alt="Image d'Ollie Dupuis.">
+                        </div>
+                        <div class="col-11 p-3">
+                            <h4>Ollie Dupuis</h4>
+                        </div>
+                    </div>
                 </div>
                 <div id="specialist2">
-                    <img src="images/Specialist2.jpg" class="img-fluid" alt="Image de Christine Monet.">
-                    <h4>Christine Monet</h4>
+                    <div class="row p-3">
+                        <div class="col-1 p-3">
+                            <img src="images/Specialist2.jpg" class="img-fluid" alt="Image de Christine Monet.">
+                        </div>
+                        <div class="col-11 p-3">
+                            <h4>Christine Monet</h4>
+                        </div>
+                    </div>
                 </div>
                 <div id="specialist3">
-                    <img src="images/Specialist3.jpg" class="img-fluid" alt="Image de Miguel Dupuis.">
-                    <h4>Miguel Dupuis</h4>
+                    <div class="row p-3">
+                        <div class="col-1 p-3">
+                            <img src="images/Specialist3.jpg" class="img-fluid" alt="Image de Miguel Dupuis.">
+                        </div>
+                        <div class="col-11 p-3">
+                            <h4>Miguel Dupuis</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -335,7 +390,6 @@
             </div>
         </div>
     </div>
-
     <script src="js\bootstrap.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -344,5 +398,6 @@
     </script>
 
 </body>
+
 
 </html>
