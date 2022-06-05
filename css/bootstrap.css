@@ -7434,6 +7434,10 @@ textarea.form-control-lg {
   background-color: #eeffff !important;
 }
 
+.bg-tertiary {
+  background-color: #d0edf2 !important;
+}
+
 .bg-success {
   background-color: #198754 !important;
 }
