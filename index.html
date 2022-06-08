@@ -211,58 +211,72 @@
 
     <div id="offres">
         <div class="bg-secondary m-5">
-            <div class="m-3 p-2">
+            <div class="m-3" style="padding-top:1%;">
                 <h3 style="text-align:center;">Les Offres par Phonair</h3>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h5>Réparation de cellulaires</h6>
-                                <table class="table">
-                                    <tr class="active bg-tertiary">
+                            <h5>Réparation de cellulaires</h5>
+                            <table class="table table-hover table-bordered" style="table-layout:fixed;">
+                                <thread>
+                                    <tr class="bg-tertiary">
                                         <th>Service</th>
                                         <th>Description</th>
                                         <th>Prix Estimé</th>
                                     </tr>
+                                </thread>
+                                <tbody>
                                     <tr>
-                                        <th>Changement de batterie</th>
-                                        <th>Mettre une nouvelle betterie</th>
-                                        <th>90$</th>
+                                        <td>Changement de batterie</th>
+                                        <td>Mettre une nouvelle betterie</th>
+                                        <td>90$</th>
                                     </tr>
+                                </tbody>
+                                <tbody>
                                     <tr>
-                                        <th>Changement d'écran</th>
-                                        <th>Mettre une nouvelle écran</th>
-                                        <th>200$</th>
+                                        <td>Changement d'écran</th>
+                                        <td>Mettre une nouvelle écran</th>
+                                        <td>200$</th>
                                     </tr>
+                                </tbody>
+                                <tbody>
                                     <tr>
-                                        <th>Téléphone non-fonctionnel</th>
-                                        <th>Un spécialist évaluera les dommages</th>
-                                        <th>30$ + coûts supplémentaires</th>
+                                        <td>Téléphone non-fonctionnel</th>
+                                        <td>Un spécialist évaluera les dommages</th>
+                                        <td>30$ + coûts supplémentaires</th>
                                     </tr>
-                                </table>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h5>Location de cellulaires</h6>
-                                <table class="table">
-                                    <tr class="active bg-tertiary">
+                            <h5>Location de cellulaires</h5>
+                            <table class="table table-hover table-bordered" style="table-layout:fixed;">
+                                <thread>
+                                    <tr class="bg-tertiary">
                                         <th>Service</th>
                                         <th>Description</th>
-                                        <th>Prix</th>
+                                        <th>Prix Estimé</th>
                                     </tr>
+                                </thread>
+                                <tbody>
                                     <tr>
-                                        <th>Samsung S22</th>
-                                        <th>Location pour une période d'une journée</th>
-                                        <th>10$</th>
+                                        <td>Samsung S22</th>
+                                        <td>Location pour une période d'une journée</th>
+                                        <td>10$</th>
                                     </tr>
+                                </tbody>
+                                <tbody>
                                     <tr>
-                                        <th>Iphone 10</th>
-                                        <th>Location pour une période d'une journée</th>
-                                        <th>12$</th>
+                                        <td>Iphone 10</th>
+                                        <td>Location pour une période d'une journée</th>
+                                        <td>12$</th>
                                     </tr>
-                                </table>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -270,21 +284,21 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h5>Vente de cellulaires</h5>
-                            <table class="table">
-                                <tr class="active bg-tertiary">
+                            <table class="table table-hover table-bordered" style="table-layout:fixed;">
+                                <tr class="bg-tertiary">
                                     <th>Service</th>
                                     <th>Description</th>
                                     <th>Prix</th>
                                 </tr>
                                 <tr>
-                                    <th>Samsung S22</th>
-                                    <th>Acheté le téléphone</th>
-                                    <th>800$</th>
+                                    <td>Samsung S22</th>
+                                    <td>Acheté le téléphone</th>
+                                    <td>800$</th>
                                 </tr>
                                 <tr>
-                                    <th>Iphone 10</th>
-                                    <th>Acheté le téléphone</th>
-                                    <th>1200$</th>
+                                    <td>Iphone 10</th>
+                                    <td>Acheté le téléphone</th>
+                                    <td>1200$</th>
                                 </tr>
                             </table>
                         </div>
@@ -350,33 +364,54 @@
             <div class="m-3 p-4">
                 <h2>Nos experts</h2>
 
-                <div id="specialist1">
-                    <div class="row p-3 bg-tertiary">
-                        <div class="col-1 p-3">
-                            <img src="images/Specialist1.jpg" class="img-fluid" alt="Image d'Ollie Dupuis.">
-                        </div>
-                        <div class="col-11 p-3">
-                            <h4>Ollie Dupuis</h4>
-                        </div>
-                    </div>
-                </div>
-                <div id="specialist2">
-                    <div class="row p-3 bg-tertiary">
-                        <div class="col-1 p-3">
-                            <img src="images/Specialist2.jpg" class="img-fluid" alt="Image de Christine Monet.">
-                        </div>
-                        <div class="col-11 p-3">
-                            <h4>Christine Monet</h4>
+                <div class="row">
+                    <div class="col mt-2 mb-2 ms-3 me-3 bg-tertiary">
+                        <div class="ms-4 me-4">
+                            <div id="specialist1">
+                                <div class="p-3 bg-tertiary">
+                                    <div class="p-3">
+                                        <img src="images/Specialist1.jpg" class="img-fluid" alt="Image d'Ollie Dupuis.">
+                                    </div>
+                                    <div class="p-3">
+                                        <h4>Ollie Dupuis</h4>
+                                        <p>something here</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div id="specialist3">
-                    <div class="row p-3 bg-tertiary">
-                        <div class="col-1 p-3">
-                            <img src="images/Specialist3.jpg" class="img-fluid" alt="Image de Miguel Dupuis.">
+
+                    <div class="col mt-2 mb-2 ms-3 me-3 bg-tertiary">
+                        <div class="ms-4 me-4">
+                            <div id="specialist2">
+                                <div class="p-3 bg-tertiary">
+                                    <div class="p-3">
+                                        <img src="images/Specialist2.jpg" class="img-fluid"
+                                            alt="Image de Christine Monet.">
+                                    </div>
+                                    <div class="p-3">
+                                        <h4>Christine Monet</h4>
+                                        <p>something here as well</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-11 p-3">
-                            <h4>Miguel Dupuis</h4>
+                    </div>
+
+                    <div class="col mt-2 mb-2 ms-3 me-3 bg-tertiary">
+                        <div class="ms-4 me-4">
+                            <div id="specialist3">
+                                <div class="p-3 bg-tertiary">
+                                    <div class="p-3">
+                                        <img src="images/Specialist3.jpg" class="img-fluid"
+                                            alt="Image de Miguel Dupuis.">
+                                    </div>
+                                    <div class="p-3">
+                                        <h4>Miguel Dupuis</h4>
+                                        <p>something here as well once again</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -399,6 +434,7 @@
             </div>
         </div>
     </div>
+
     <script src="js\bootstrap.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -407,6 +443,5 @@
     </script>
 
 </body>
-
 
 </html>
