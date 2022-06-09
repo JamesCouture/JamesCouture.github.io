@@ -2953,13 +2953,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #5c9dff;
+  border-color: #bad4fc;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #396fc0;
+  border-color: #000000;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7424,6 +7424,10 @@ textarea.form-control-lg {
 
 .text-reset {
   color: inherit !important;
+}
+
+.bg-rounded{
+  border-radius: 25px;
 }
 
 .bg-primary {
